@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/HynnXD/otong
+git clone https://github.com/HynnXD/dahlia
 ```
 ```
-cd otong && screen -S otong
+cd dahlia && screen -S dahlia
 ```
 ```
 apt install ffmpeg -y
@@ -18,7 +18,7 @@ bash installnode.sh
 apt install python3.10-venv
 ```
 ```
-python3 -m venv otong && source otong/bin/activate
+python3 -m venv dahlia && source dahlia/bin/activate
 ```
 ```
 pip3 install -r requirements.txt
@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S otong
+screen -S dahlia
 ```
 ```
 python3 -m PyroUbot
